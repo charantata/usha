@@ -656,25 +656,6 @@ label {
     <script src="assets/js/map.js"></script>
 	<script src="assets/js/contact_me.min.js"></script>
 	<script src="assets/js/jqBootstrapValidation.min.js"></script>
-	 <script>
-      function initMap() {
-        var loc = {lat: 25.601177, lng: 85.125648};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 19,
-		   mapTypeId: google.maps.MapTypeId.HYBRID,
-			fullscreenControl: true,
-			
-          center: loc
-        });
-        var marker = new google.maps.Marker({
-          position: loc,
-          map: map,
-		   title: ""
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCruUzxwB3cQF5pYJ9am8v5-g_1Cx601AU&callback=initMap">
-    </script>
+	
   </body>
 </html>
